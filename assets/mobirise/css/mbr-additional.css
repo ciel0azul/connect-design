@@ -1050,14 +1050,17 @@ a {
   }
 }
 /* ★★★背景画像を削除 */
-/* .cid-sMVtIcIk5o {
-  background-image: url("../../../assets/images/web-top.png");
-} */
+.cid-sMVtIcIk5o {
+  /* background-image: url("../../../assets/images/web-top.png");  */
+  margin-top:0rem;
+  /* border:solid red; */
+}
+
 .cid-sMVtIcIk5o .mbr-section-subtitle {
   text-align: center;
 }
 .cid-sIWcgFyV0e {
-  padding-top: 1rem;
+  padding-top: 3rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr.jpg");
   /* border:solid pink; */
@@ -1084,8 +1087,11 @@ a {
 .cid-sITSgWw7bI img {
   /* display: block; */
   width: 100%;
+  
+  
     /* border: solid red; */
 }
+
 .cid-sITTfelNtQ {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -1130,7 +1136,7 @@ a {
   /* border: solid red; */
 }
 .cid-sIWchJBry0 {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
   /* border:solid pink; */
@@ -1180,15 +1186,16 @@ a {
   color: #555555;
 }
 .cid-sIWcjYmPPU {
-  padding-top: 2rem;
-  padding-bottom: 1rem;
+  padding-top: 4rem;
+  padding-bottom: 0rem;
   /* ★★★サイズ調整 */
-  height:90px;
+  /* height:90px; */
   background-image: url("../../../assets/images/mbr-1.jpg");
   /* border:solid red; */
   
 }
 .cid-sITIhFYdqP {
+  margin-top:0rem;
   padding-top: 1rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
@@ -1239,10 +1246,11 @@ a {
   color: #232323;
 }
 
-/* ★★★Worksのボタン位置をleft⇒Rightに */
+/* ★★★旧Worksのボタン位置をleft⇒Rightに */
 /* .cid-sITIhFYdqP .mbr-text, */
 .cid-sITIhFYdqP .mbr-section-btn {
   text-align: right;
+  padding-bottom: 2rem;
 }
 .cid-sITIhFYdqP .item-title {
   text-align: left;
@@ -1252,7 +1260,7 @@ a {
   color: #bbbbbb;
 }
 .cid-sIWckMGUnk {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
 }
@@ -1273,7 +1281,7 @@ a {
   width: 100%;
 }
 .cid-sIWdZrZIIF {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
 }
@@ -1341,7 +1349,7 @@ a {
   }
 }
 .cid-sIWFwKeIEF {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr.jpg");
   /* border:solid red; */
@@ -1404,7 +1412,7 @@ a {
   text-align: center;
 }
 .cid-sIWe2STMv3 {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
 }
@@ -1436,10 +1444,18 @@ a {
   color: #000000;
 }
 .cid-sIWe49aszl {
-  padding-top: 2rem;
+  padding-top: 4rem;
   padding-bottom: 0rem;
   background-image: url("../../../assets/images/mbr-1.jpg");
 }
+
+/* ★★★Contactフォーム追加 */
+.cid-sNqj3kXMpR{
+  padding-top: 1rem;
+  background-image: url("../../../assets/images/mbr-1.jpg");
+}
+
+
 .cid-sIW90RVwIp {
   padding-top: 0rem;
   padding-bottom: 0rem;
@@ -2764,21 +2780,15 @@ a {
   background-color: #ffffff;
   opacity: 0.4;
 }
-.cid-sIWHz6Bs7Z form .mbr-section-btn {
+.cid-sIWHz6Bs7Z form .mbr-section-btn
+ {
   text-align: center;
   width: 100%;
+  border:solid blue;
 }
 .cid-sIWHz6Bs7Z form .mbr-section-btn .btn {
   display: inline-flex;
 }
-
-/* ★★★Service　スペース調整 */
-/* .cid-sITJ2WpjOm .card-wrapper{
-  height:100%;
-  height:300px;
-  border:solid blue;
-} */
-
 
 @media (max-width: 991px) {
   .cid-sIWHz6Bs7Z form .mbr-section-btn .btn {
@@ -2854,6 +2864,10 @@ a {
   width: 100%;
 }
 
+.cid-sNqj3kXMpR form .dragArea{
+  justify-content: center;
+}
+
 /* ★★★★★★★★★★★★★★★★★★★★★★★★★ */
 /* ★★★PCサイズ */
 /* ★★★文字サイズ変更 */
@@ -2875,9 +2889,10 @@ a {
 /* ★★★ヘッダーの背景ビデオ調整 */
 .header-container{
   width:100%;
+  margin-top:-1rem;
   margin:0 auto;
-  padding:0;
-  /* border:solid red; */
+  /* padding:0; */
+  /* border:solid blue; */
 }
 .header-video{
   display:block;
@@ -2907,12 +2922,12 @@ a {
   /* border:solid green; */
 }
 
-/* ★★★Works全体のサイズ調整 */
+/* ★★★Works旧全体のサイズ調整 */
 .cid-sITIhFYdqP .container{
-  justify-content: space-around;
+  /* justify-content: space-around; */
   padding-top:0px;
   width:100%;
-  max-width:1400px;
+  /* max-width:1400px; */
   /* border:solid red; */
   
 }
@@ -2927,18 +2942,18 @@ a {
 .cid-sITIhFYdqP .item-wrapper{
 /* border: solid blue; */
 width:100%;
-width:400px;
+/* width: 400px; */
 height:100%;
 margin:0 auto;
 }
 
 
-/* ★★★Worksの動画紹介欄　サイズ調整 */
+/* ★★★旧Worksの動画紹介欄　サイズ調整 */
 .cid-sITIhFYdqP video{
   
   /* gap:30px; */
   width: 100%;
-  width: 400px;
+  width: 300px;
   height: 100%;
   height:230px;
   margin:auto 0;
@@ -2955,37 +2970,16 @@ margin:0 auto;
 }
 
 
-/* ★★★Works内の説明文字左寄せ */
+/* ★★★旧Works内の説明文字左寄せ */
 cid-sITIhFYdqP.mbr-text{
   text-align: left;
 }
-
-  /* ★★★service動画サイズ変更 */
-  /* .cid-sITJ2WpjOm .card-pr video {
-    position:relative;
-    right:50px;
-    margin:0 auto;
-    border:solid pink;
-  } */
-/* 
-  .cid-sITJ2WpjOm .card-web video {
-    margin:0 auto;
-    position:relative;
-    top:25px;
-    right:50px;
-    border:solid purple;
-    } */
 
     /* ★★★Serviceの動画調整 */
     .cid-sITJ2WpjOm .img-wrapper{
       margin:0 auto;
       /* border:solid blue; */
       }
-    /* .cid-sITJ2WpjOm .service-video{
-    width:100%;
-    margin:0 auto;
-    } */
-
 
     /*★★★スクロールトップアイコンのサイズ調整*/
     .scrollToTop{
@@ -3005,9 +2999,135 @@ cid-sITIhFYdqP.mbr-text{
     }
     /* ★★★contactページのスペース調整 */
     .cid-sIWHz6Bs7Z .container{
-      height:900px;
+      height:1300px;
     }
 
+  /* ★★★Price画面の高さ修正 */
+    .cid-sITTP0SeoW .container{
+      height:1230px;
+    }
+
+    .cid-sNqj3kXMpR .container{
+      padding-bottom:3rem;
+    }
+
+/* ★★★Contact form のボタン位置を修正 */
+.cid-sNqj3kXMpR form .mbr-section-btn{
+      text-align: center;
+      width: 100%;
+      /* border: solid red; */
+    }
+
+.cid-sNqj3kXMpR form .mbr-section-btn .btn{
+      margin:0 auto;
+    }
+
+/* 新Works追加 */
+/* ★★★事業PR */
+.cid-sNtwbJi4AB{
+  margin-top:-3rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/mbr-1.jpg");
+  /* border:solid blue; */
+}
+.cid-sNtwbJi4AB .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sNtwbJi4AB .mbr-section-title,
+.cid-sNtwbJi4AB .mbr-description {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .cid-sNtwbJi4AB .text-wrapper {
+    padding: 2rem;
+  }
+}
+.cid-sNtwbJi4AB .video-wrapper video,
+.cid-sNtwdPptWF .video-wrapper video,
+.cid-sNtwexcNUP .video-wrapper video{
+  width:100%;
+  height:100%;
+}
+
+.cid-sNtwbJi4AB .item-subtitle,
+.cid-sNtwdPptWF .item-subtitle,
+.cid-sNtwexcNUP .item-subtitle{
+  color:#bbbbbb;
+}
+
+
+/* ★★★有形サービス */
+.cid-sNtwdPptWF {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/mbr.jpg");
+}
+.cid-sNtwdPptWF .row {
+  flex-direction: row-reverse;
+}
+.cid-sNtwdPptWF .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sNtwdPptWF .mbr-section-title,
+.cid-sNtwdPptWF .mbr-description {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .cid-sNtwdPptWF .text-wrapper {
+    padding: 2rem;
+  }
+}
+
+/* ★★★無形サービス */
+.cid-sNtwexcNUP {
+  padding-top: 1rem;
+  padding-bottom: 0rem;
+  background-image: url("../../../assets/images/mbr-1.jpg");
+}
+.cid-sNtwexcNUP .video-wrapper iframe {
+  width: 100%;
+}
+.cid-sNtwexcNUP .mbr-section-title,
+.cid-sNtwexcNUP .mbr-description {
+  text-align: center;
+}
+@media (min-width: 992px) {
+  .cid-sNtwexcNUP .text-wrapper {
+    padding: 2rem;
+  }
+}
+
+/* ★★★新Works動画サイズ調整 */
+.cid-sNtwbJi4AB .video-wrapper video,
+.cid-sNtwdPptWF .video-wrapper video,
+.cid-sNtwexcNUP .video-wrapper video{
+  width:100%;
+  height:100%;
+}
+
+/* ★★★新Works項目説明文字カラー変更 */
+.cid-sNtwbJi4AB .item-subtitle,
+.cid-sNtwdPptWF .item-subtitle,
+.cid-sNtwexcNUP .item-subtitle{
+  color:#bbbbbb;
+}
+
+/* ★★新Worksのボタン位置をleft⇒Rightに */
+.cid-sNtwexcNUP .mbr-section-btn {
+  text-align: right;
+  padding-bottom: 2rem;
+}
+
+.my-name strong{
+  font-family:'English';
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+/* ★★★Priceの表示イメージ変更 */
+.price1-phone, .price2-phone{
+  display:none;
+}
 /*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応 1024px以下 */
 @media(max-width:1024px){
@@ -3022,40 +3142,14 @@ cid-sITIhFYdqP.mbr-text{
 }
 
   /* ★★★service動画サイズ変更 */
-  /* .cid-sITJ2WpjOm .card-pr video {
-    position:relative;
-    right:50px;
-    margin-left:20px;
-    
-    border:solid pink;
-  }
-  .cid-sITJ2WpjOm .card-web video {
-    position:relative;
-    top:25px;
-    margin-left:20px;
-    border:solid purple;
-    }
-    .cid-sITJ2WpjOm .img-wrapper video {
-    width: 100%;
-    width: 180px;
-    height:120px;
-    object-fit: cover;
-    border:solid green;
-  } */
-  /* .cid-sITJ2WpjOm .img-wrapper{
-    border:solid blue;
+  /* .cid-sITJ2WpjOm .service-video{
+    width:100%;
+    margin:0 auto;
+    border:solid red;
     } */
 
 
-  .cid-sITJ2WpjOm .service-video{
-    width:100%;
-    margin:0 auto;
-    /* border:solid red; */
-
-    }
-
-
-  /* ★★★Works動画サイズ変更 */
+  /* ★★★旧Works動画サイズ変更 */
   .cid-sITIhFYdqP video,
 .cid-sITIhFYdqP .item-img {
   width: 100%;
@@ -3066,7 +3160,7 @@ cid-sITIhFYdqP.mbr-text{
   /* border: solid red; */
 }
 
-  /* ★★★Works各項目サイズ調整 */
+  /* ★★★旧Works各項目サイズ調整 */
 .cid-sITIhFYdqP .item-wrapper{
   width: 100%;
   /* border:solid blue; */
@@ -3085,6 +3179,12 @@ cid-sITIhFYdqP.mbr-text{
 
 }
 
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:1100px;
+}
+
+
 /*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応 768px以下 */
 
@@ -3097,7 +3197,6 @@ cid-sITIhFYdqP.mbr-text{
   margin:0 auto;
   /* border:solid pink; */
 }
-
 
 /* ★★★ヘッダー文字サイズ変更 */
 .header-title .mbr-section-subtitle{
@@ -3113,13 +3212,16 @@ cid-sITIhFYdqP.mbr-text{
   .cid-sITJ2WpjOm .img-wrapper video {
     /* position:relative;
     left:-130px; */
-    width: 100%;
+    /* width: 100%;
     width:240px;
-    height:200px;
+    height:200px; */
     object-fit: cover;
     /* border:solid green; */
   }
-
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:950px;
+}
 
 }
 /*★★★★★★★★★★★★★★★★★★★★★    */
@@ -3140,7 +3242,7 @@ cid-sITIhFYdqP.mbr-text{
 width:100%;
 width:350px;
 }
-  /* ★★★Works動画サイズ変更 */
+  /* ★★★旧Works動画サイズ変更 */
   .cid-sITIhFYdqP video,
 .cid-sITIhFYdqP .item-img {
   margin:0 auto;
@@ -3150,7 +3252,7 @@ width:350px;
   object-fit: cover;
   /* border: solid red; */
 }
-  /* ★★★Works各項目サイズ調整 */
+  /* ★★★旧Works各項目サイズ調整 */
 .cid-sITIhFYdqP .item-wrapper{
   width: 100%;
   margin:0 auto;
@@ -3163,7 +3265,7 @@ width:350px;
   left:50px; */
   margin:0 auto;
   width: 100%;
-  width:460px;
+  width:470px;
   height:100%;
   height:280px;
   object-fit: cover;
@@ -3178,13 +3280,11 @@ width:350px;
 }
 
 /* ★★★項目タイトルの余白調整 */
-.cid-sIWcjYmPPU, .cid-sIWchJBry0, 
-.cid-sIWckMGUnk, .cid-sIWFwKeIEF,
-.cid-sIWe2STMv3, .cid-sIWdZrZIIF,
+.cid-sIWchJBry0, .cid-sIWcjYmPPU, 
+.cid-sIWckMGUnk, .cid-sIWdZrZIIF,
+.cid-sIWFwKeIEF, .cid-sIWe2STMv3,
 .cid-sIWe49aszl{
-  height:60px;
-  padding-top:10px;
-  /* border:solid red; */
+  padding-top: 2rem;
 }
 
 /* ★★★ボタン位置変更 */
@@ -3204,9 +3304,8 @@ width:350px;
   
   width:100%;
   margin:0 auto;
-  padding:0;
-  position:relative;
-  left:2px;
+  margin-top:0.5rem; 
+  /* padding:0; */
   /* border:solid red; */
 }
 
@@ -3216,7 +3315,7 @@ width:350px;
   max-width:1440px;
   margin:0 auto;
   padding:0;
-  height:90%;
+  height:100%;
   z-index:1;
   /* border:solid blue; */
 }
@@ -3257,7 +3356,7 @@ width:350px;
       height: 850px;
     }
 
-    /* ★★★worksページのスペース調整 */
+    /* ★★★旧worksページのスペース調整 */
     .cid-sMWPSIYHme .container{
       height:1800px;
     }
@@ -3267,14 +3366,22 @@ width:350px;
     }
 
     /* ★★★Sendボタンの位置調整 */
-    .cid-sIWHz6Bs7Z form .dragArea{
+    .cid-sIWHz6Bs7Z form .dragArea
+    {
       justify-content: center;
     }
     .cid-sIWHz6Bs7Z form .mbr-section-btn {
       text-align: center;
       width: 50%;
     }
+    .cid-sNqj3kXMpR form .dragArea{
+      justify-content: center;
+    }
 
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:730px;
+}
 }
 
 /*★★★★★★★★★★★★★★★★★★★★★    */
@@ -3300,7 +3407,7 @@ width:350px;
     /* border:solid green; */
   }
 
-/* ★★★Works全体のサイズ調整 */
+/* ★★★旧Works全体のサイズ調整 */
 .cid-sITIhFYdqP .container{
   /* justify-content: space-around; */
   padding-top:0px;
@@ -3312,7 +3419,7 @@ width:350px;
 width:100%;
 width:350px;
 }
-  /* ★★★Works動画サイズ調整 */
+  /* ★★★旧Works動画サイズ調整 */
   .cid-sITIhFYdqP video{
   width: 100%;
   /* width:300px; */
@@ -3362,13 +3469,24 @@ width:350px;
   /* border:solid red; */
 }
 
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:800px;
+}
 
+/* ★★★Priceの表示イメージ変更 */
+.price1-pc, .price2-pc{
+  display:none;
+}
+.price1-phone, .price2-phone{
+  display:block;
+}
 }
 
 /*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応　320以下 */
 @media(max-width:320px){
-/* ★★★Works全体のサイズ調整 */
+/* ★★★旧Works全体のサイズ調整 */
 .cid-sITIhFYdqP .container{
   /* justify-content: space-around; */
   padding-top:0px;
@@ -3382,7 +3500,7 @@ width:100%;
 /* width:310px; */
 /* width:280px; */
 }
-  /* ★★★Works動画サイズ調整 */
+  /* ★★★旧Works動画サイズ調整 */
   .cid-sITIhFYdqP video,
 .cid-sITIhFYdqP .item-img {
   width: 100%;
@@ -3412,8 +3530,8 @@ width:100%;
 .cid-sIWe2STMv3, .cid-sIWdZrZIIF,
 .cid-sIWe49aszl
  {
-  height:50px;
-  padding-top:10px;
+  /* height:50px;
+  padding-top:10px; */
 }
 
 /* .cid-sIWchJBry0{
@@ -3444,7 +3562,7 @@ width:100%;
   height:60px;
   /* border:solid green; */
 }
-/* Worksの動画スペース調整 */
+/* 旧Worksの動画スペース調整 */
 .cid-sITIhFYdqP .container{
   width:100%;
   width:300px;
@@ -3490,7 +3608,7 @@ width:100%;
       height: 550px;
     }
 
-    /* ★★★worksページのスペース調整 */
+    /* ★★★旧worksページのスペース調整 */
     /* .cid-sMWPSIYHme .container{
       height:550px;
     } */
@@ -3499,7 +3617,10 @@ width:100%;
       height:550px;
     }
 
-
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:630px;
+}
 
 }
 

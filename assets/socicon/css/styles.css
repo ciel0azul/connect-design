@@ -11,7 +11,12 @@
   font-weight: normal;
   font-style: normal;
   font-display: swap;
+
+  font-family: 'English';
+  src: url('../fonts/COTILLIO.ttf') format("truetype");
 }
+
+
 
 [data-icon]:before {
   font-family: "socicon" !important;
