@@ -3004,7 +3004,7 @@ cid-sITIhFYdqP.mbr-text{
 
   /* ★★★Price画面の高さ修正 */
     .cid-sITTP0SeoW .container{
-      height:1230px;
+      height:1330px;
     }
 
     .cid-sNqj3kXMpR .container{
@@ -3128,6 +3128,13 @@ cid-sITIhFYdqP.mbr-text{
 .price1-phone, .price2-phone{
   display:none;
 }
+
+/* ★★★お悩み色変更 */
+.cid-sIWcgFyV0e .title-teian span{
+  color:#FF6F91;
+  font-weight: bold;
+}
+
 /*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応 1024px以下 */
 @media(max-width:1024px){
@@ -3177,13 +3184,13 @@ cid-sITIhFYdqP.mbr-text{
   /* border:solid pink; */
 }
 
-}
+
 
 /* ★★★Price画面の高さ修正 */
 .cid-sITTP0SeoW .container{
   height:1100px;
 }
-
+}
 
 /*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応 768px以下 */
