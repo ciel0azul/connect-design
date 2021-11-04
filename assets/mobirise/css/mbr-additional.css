@@ -3392,6 +3392,41 @@ width:350px;
 }
 
 /*★★★★★★★★★★★★★★★★★★★★★    */
+/* ★★★レスポンシブ対応 450px以下 */
+@media(max-width:450px){
+
+    /* ★★★service動画サイズ変更 */
+.cid-sITJ2WpjOm .img-wrapper video{
+  margin:0 auto;
+  width: 100%;
+  height:100%;  
+  height:250px;
+  object-fit: cover;
+  /* border:solid green; */
+}
+
+
+/* ★★★Price画面の高さ修正 */
+.cid-sITTP0SeoW .container{
+  height:600px;
+}
+
+/* ★★★スクロールアイコンの位置 */
+.scrollToTop{
+  width:9%;
+  margin-bottom:3rem;
+  margin-left:21rem;
+  /* justify-content: flex-end; */
+  /* border:solid red; */
+}
+
+
+}
+
+
+
+
+/*★★★★★★★★★★★★★★★★★★★★★    */
 /* ★★★レスポンシブ対応 411px以下 */
 @media(max-width:411px){
 
